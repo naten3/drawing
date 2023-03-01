@@ -1,0 +1,15 @@
+$canvas-dim: 600px;
+
+.draw-component {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  canvas {
+    width: $canvas-dim;
+    height: $canvas-dim;
+    background-color: #FFF;
+    margin:10px;
+  }
+}
